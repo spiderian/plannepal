@@ -1,0 +1,16 @@
+.banner-section{
+    .carousel{
+        .carousel-caption{
+            right: 10%;
+            left: initial;
+            bottom: initial;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: end;
+            width: 40%;
+        }
+        img{
+            height: 80vh;
+        }
+    }
+}
