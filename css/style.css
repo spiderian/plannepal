@@ -34,6 +34,22 @@ img {
   background-color: #098F32;
 }
 
+.section-heading {
+  background-color: #0B732B;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  color: #0B732B;
+  margin-bottom: 30px;
+}
+
 header .top-header {
   background-color: #098F32;
   position: relative;
@@ -73,4 +89,100 @@ header .nab-bar {
 }
 .banner-section .carousel img {
   height: 80vh;
+}
+
+.about-us {
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 30px;
+}
+.about-us .custom-btn {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 20px;
+}
+.about-us ul li {
+  font-weight: 500;
+}
+.about-us ul li:hover {
+  text-decoration: underline;
+}
+
+.Specialities-card {
+  position: relative;
+  overflow: hidden;
+}
+.Specialities-card img {
+  transition: 0.4s;
+}
+.Specialities-card h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  padding: 10px 30px;
+  background-color: #ED7701;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Specialities-card:hover img {
+  transform: scale(1.3);
+}
+.Specialities-card:hover h3 {
+  background-color: #0B732B;
+}
+
+.selling-trips ul li {
+  font-size: 18px;
+  background-color: #09732B;
+  color: white;
+  font-weight: 150;
+  padding: 5px 60px;
+  box-sizing: border-box;
+}
+.selling-trips ul li:hover {
+  background-color: #ED7701;
+}
+
+.selling-trip-cards {
+  position: relative;
+}
+.selling-trip-cards .details {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0px;
+  color: white;
+  display: grid;
+  grid-template-columns: auto 90px;
+}
+.selling-trip-cards .details h3 {
+  background-color: #0B732B;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.selling-trip-cards .details .duration {
+  background-color: #ED7701;
+  text-align: center;
+}
+.selling-trip-cards .price {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #ED7701;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  opacity: 0;
+  transition: 0.4s;
+}
+.selling-trip-cards:hover .price {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
